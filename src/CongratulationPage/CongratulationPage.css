@@ -1,0 +1,75 @@
+.congratulation-page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #40c1f0;
+    text-align: center;
+    z-index: 1;
+    padding: 20px;
+}
+
+.background-rectangle {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 80%;
+    background-color: #FFF4EF;
+    z-index: -1;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.congratulations-text {
+    font-size: 5rem;
+    color: #FFD700;
+    margin-bottom: 0;
+}
+
+.you-did-it-text {
+    font-size: 2rem;
+    color: #FD9100;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.qr-code {
+    margin: 10px ;
+}
+
+.round-btn{
+    position: absolute;
+    left: 5rem;
+    bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fd9100;
+    border: 2px solid #fff4ef;
+    min-height: 4rem;
+    min-width: 4rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.round-btn img{
+    height: 2rem;
+    width: 2rem;
+    object-fit: contain;
+}
+.character-container {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 3;
+}
+
+.group-image {
+    width: 500px;
+}

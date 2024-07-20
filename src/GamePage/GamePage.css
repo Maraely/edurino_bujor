@@ -1,0 +1,54 @@
+.game-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(20deg, #FFF4EF 0%, #FFF4EF 20%, #8C52FE 20%, #8C52FE 50%, #40C1F0 50%, #40C1F0 80%, #FFF4EF 80%);
+    transform-origin: top left;
+    overflow: hidden;
+}
+
+.logo {
+    width: auto;
+    margin-top: -30px;
+}
+
+.img-wrapper{
+    position: absolute;
+    height: 30vh;
+    width: 200px;
+    top: 20px;
+    right: -4rem;
+    overflow: hidden;
+}
+
+.characters {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.left-side, .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character {
+    max-width: 400px;
+    height: auto;
+    margin: 5px 0;
+    cursor: pointer; 
+    transition: transform 0.3s;
+}
+
+.character:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+

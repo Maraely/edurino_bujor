@@ -1,0 +1,63 @@
+.robin-game-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #40C1F0;
+    position: relative;
+}
+
+.logo {
+    width: auto;
+    margin-top: -30px;
+}
+
+.game-area {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    margin-top: 40px;
+    background: #FFF4EF;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.fruits-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 10rem;
+}
+
+.numbers-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fruit-img {
+    width: auto;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.draggable {
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #8C52FE;
+    color: #fff;
+    border-radius: 7px;
+    cursor: grab;
+}
+
+.incorrect-drop {
+    border: 5px solid red;
+}
+
+
+
